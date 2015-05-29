@@ -1,0 +1,116 @@
+.emodal, .emodal:before, .emodal:after {
+	-moz-box-sizing: border-box;
+}
+.emodal-overlay {
+	position:fixed;
+	display:none;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	z-index:998!important;
+	background-color:rgba(0, 0, 0, 0.8)!important;
+}
+
+.emodal {
+	top:100px;
+	visibility: hidden;
+	position: absolute;
+	display:none;
+	z-index: 999!important;
+}
+
+.emodal > .emodal-close {
+	text-decoration:none;
+	text-align:center;
+    line-height: 1;
+	position: absolute;
+	font-weight: bold;
+	cursor: pointer;
+	min-width: 1em;
+	background-color: rgb(253, 120, 0)!important;
+}
+
+.emodal.responsive {
+	left: 50%;
+	margin-left: -40%;
+	width: 80%;
+	height: auto;
+	overflow:visible;
+}
+
+@media only screen and (min-width: 768px){
+.emodal.nano {
+	margin-left: -10%;
+	width: 20%;
+}
+.emodal.tiny {
+	margin-left: -15%;
+	width: 30%;
+}
+.emodal.small {
+	margin-left: -20%;
+	width: 40%;
+}
+.emodal.medium {
+	margin-left: -30%;
+	width: 60%;
+}
+.emodal.large {
+	margin-left: -35%;
+	width: 70%;
+}
+.emodal.xlarge {
+	margin-left: -47.5%;
+	width: 95%;
+}
+}
+
+
+.emodal.fixed {
+	position:fixed;
+}
+.emodal.custom-position {
+	left: auto;
+	top: auto;
+	margin-left: inherit;
+}
+
+.emodal .emodal-content :last-child {
+	margin-bottom:0;
+}
+
+.field-border{background: none repeat scroll 0 0 #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    padding: 5px;}
+	
+.submit_btn {
+background: none repeat scroll 0 0 #ec7813 ;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    margin: 25px auto 0;
+    padding: 5px 10px;
+    text-align: center;
+    width: 28%;
+}
+
+.popup-div{border:1px solid #ccc; max-width:418px; height:394px; margin:-2px auto -1px auto; background:url(http://vidm.in/website/pop-up.jpg) no-repeat center; position:relative;}
+.responsive-img{position:absolute; top:170px; bottom: 0; left: 0; right:0; margin: 0 auto; width:228px;}
+.responsive-img2{position:absolute; top:208px; bottom: 0; left: 0; right:0; margin: 0 auto; width:228px;}
+.responsive-img3{position:absolute; top:277px; bottom: 0; left: 0; right:0; margin: 0 auto; width:98px;}
+
+
+.left-form{ max-width:500px; margin:0 auto; font-family:arial; font-size:15px; font-weight:bold; color:#999;}
+.left-form .field-name{ height:40px; line-height:40px;}
+.left-form .text-field{ max-width:100%; border:1px solid #ccc; border-radius:7px; height:35px; line-height:35px;  padding:0 5px;  color:#999; outline:none;}
+.left-form .text-field input{ background:none; border:0px; width:100%; font-size:14px; outline:none; height:35px; line-height:35px;}
+.left-form .submit-btn{background: #ec7813; border-radius: 5px; margin: 25px auto 0; padding: 5px 10px; text-align: center; width:28%; cursor:pointer;}
+	
+	.left-form .submit-btn input{ background:none; border:0px; cursor:pointer; color: #fff; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 16px;  }
+
+
+

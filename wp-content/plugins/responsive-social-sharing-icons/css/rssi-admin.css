@@ -1,0 +1,52 @@
+/*-- RSSI ADMIN STYLE --------------------
+------------------------------------------*/
+#rssi-admin-wrap{
+	width:550px;
+}
+#rssi-admin-wrap table{
+	width:100%;
+}
+#rssi-admin-wrap table td {
+	padding:5px;
+}
+#rssi-admin-wrap table td:first-child{
+	width:200px;
+}
+#rssi-admin-wrap  #poststuff{
+	min-width:100%;
+}
+#rssi-admin-wrap  select {
+	padding: 3px;
+    width: 90px;
+}
+#rssi-admin-wrap #template_code{
+	background-color: #ECF0F1;
+    padding: 10px;
+}
+#rssi-admin-wrap .share_button{
+	width:134px !important;
+}
+#rssi_template_code{
+    background: none repeat scroll 0 0 #FFFADA;
+    border: 1px solid #F9F1C0;
+    color: #000000;
+    font-size: 15px;
+    margin: 15px 0;
+    padding: 15px;
+    text-align: center;
+}
+#rssi_template_code .rssi_or {
+    color: #000000;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+#rssi_template_code h4{
+    background: none repeat scroll 0 0 #EFFDFD;
+    border: 1px solid #B1CFFC;
+    border-radius: 2px;
+    color: #000000;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 22px;
+    padding: 7px;
+}

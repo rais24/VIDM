@@ -1,0 +1,51 @@
+/*-- RSSI FRONT STYLE --------------------
+------------------------------------------*/
+.clearfix{*zoom:1}
+.clearfix:after{clear:both}
+.clearfix:before,.clearfix:after{content:" ";display:table}
+.rssi-icons.large-format li a,
+.rssi-icons.large-format li a .text{-webkit-backface-visibility:hidden;-moz-backface-visibility:hidden;-ms-backface-visibility:hidden}
+.rssi-icons,.rssi-icons li,.rssi-icons li a{-moz-box-sizing:border-box;box-sizing:border-box}
+.rssi-icons{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;height:36px;margin:0;padding:0;width:100%}
+.rssi-icons li{float:left;height:100%;list-style:none;margin:0 !important;padding:0 2.5px}
+.rssi-icons li.email a{background-color:#0a88ff}
+.rssi-icons li.email a:hover{background-color:#006ed6}
+.rssi-icons li.facebook a{background-color:#306199}
+.rssi-icons li.facebook a:hover{background-color:#244872}
+.rssi-icons li.tumblr a{background-color:#32506d}
+.rssi-icons li.tumblr a:hover{background-color:#22364a}
+.rssi-icons li.linkedin a{background-color:#007bb6}
+.rssi-icons li.linkedin a:hover{background-color:#005983}
+.rssi-icons li.twitter a{background-color:#26c4f1}
+.rssi-icons li.twitter a:hover{background-color:#0eaad6}
+.rssi-icons li.googleplus a{background-color:#e93f2e}
+.rssi-icons li.googleplus a:hover{background-color:#ce2616}
+.rssi-icons li.youtube a{background-color:#df1c31}
+.rssi-icons li.youtube a:hover{background-color:#b21627}
+.rssi-icons li.reddit a{background-color:#8bbbe3}
+.rssi-icons li.reddit a:hover{background-color:#62a3d9}
+.rssi-icons li.pinterest a{background-color:#b81621}
+.rssi-icons li.pinterest a:hover{background-color:#8a1119}
+.rssi-icons li.github a{background-color:#444}
+.rssi-icons li.github a:hover{background-color:#2b2b2b}
+.rssi-icons li a{ outline:none;line-height: 17px;background-color:#ccc;border-radius:2px;display:block;font-size:11px;font-weight:bold;height:100%;padding:11px 7px 12px 27px;position:relative;text-align:center;text-decoration:none;text-transform:uppercase;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;width:100%;-webkit-transition:background-color 0.2s ease-in-out;-moz-transition:background-color 0.2s ease-in-out;-o-transition:background-color 0.2s ease-in-out;transition:background-color 0.2s ease-in-out}
+.rssi-icons li a .icon{bottom: 0; color: #FFFFFF; display: block; font-size: 19px; height: 22px; left: 14px; margin: auto; position: absolute; top: 0;} 	 	
+.rssi-icons li a .text{color:#fff}
+.rssi-icons li a:active{box-shadow:inset 1px 3px 15px 0 rgba(22,0,0,0.25)}
+.rssi-icons li.small a{padding:0}
+.rssi-icons li.small a .icon{bottom: 0; display: block; height: 22px; left: auto; margin: auto; overflow: hidden; position: absolute; text-align: center; top: 0; width: 100%;} 	
+.rssi-icons li.small a .text{visibility:hidden}
+.rssi-icons.large-format{height:auto}
+.rssi-icons.large-format li{height:auto}
+.rssi-icons.large-format li a{font-size:15px;font-size:1vw;padding:7% 0% 7% 12%;border-radius:0.2em}
+.rssi-icons.large-format li a .icon{left:7%;padding-top:0;width:12%}
+.rssi-icons.large-format li a .icon svg{height:100%;width:100%}
+.rssi-icons.large-format li a .text{font-size:15px;font-size:1vw}
+.rssi-icons.large-format li a:hover{font-size:15px;font-size:1vw;padding:7% 0% 7% 12%;border-radius:0.2em}
+.rssi-icons.small-format{padding-top:5px}
+.rssi-icons.small-format li{height:80%;padding:0 1.5px}
+.rssi-icons.small-format li a .icon{height:100%;padding-top:0}
+.rssi-icons.tiny-format{height:22px;position:relative}
+.rssi-icons.tiny-format li{padding-right:7px}
+.rssi-icons.tiny-format li a{background-color:transparent;padding:0}
+.rssi-icons.tiny-format li a:hover,.rssi-icons.tiny-format li a:active{background-color:transparent}

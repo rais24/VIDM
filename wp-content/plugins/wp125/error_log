@@ -1,0 +1,2 @@
+[04-May-2015 13:56:15 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/vidm/public_html/website/wp-content/plugins/wp125/adminmenus.php on line 409
+[04-May-2015 13:56:20 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/vidm/public_html/website/wp-content/plugins/wp125/adminmenus.php on line 409

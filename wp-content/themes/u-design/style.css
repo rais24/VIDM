@@ -1,0 +1,122 @@
+/*
+Theme Name: U-Design
+Theme URI: http://themeforest.net/item/udesign-responsive-wordpress-theme/253220?ref=AndonDesign
+Description: A slick, powerful and clean theme U-Design provides an intuitive set of options to help you setup your WordPress site quickly and effectively. Flexibility is key and it has been optimized for SEO and speed. It is also responsive &amp; mobile ready should you choose that option. The U-Design theme features include: unlimited colors, widgetized home page, over 600 fonts to choose from, WooCommerce Integration, it is also translation and multilingual ready, step by step documentation, exclusive U-Design support forum and a helpful community. Always up-to-date security and many new features are constantly added as the theme evolves.
+Author: Andon
+Author URI: http://themeforest.net/user/AndonDesign/portfolio?ref=AndonDesign
+Version: 2.4.19
+License: Located in 'licensing' folder
+License URI: Located in 'licensing' folder
+*/
+
+/*
+    Do not remove any of the commented text above as it is used by the theme for proper function!
+
+    All the themes' CSS files are located under the 'styles/' sub-folder...
+
+    If you would like to use this file to add any custom CSS, you'll need to enable it first  
+    from the theme's "General Options" section.
+    Please note: After enabling the use of this file, you will not see any change here, 
+    feel free to add your custom CSS below.
+    On the other hand, if you need access to the theme's main style sheet, you will 
+    need FTP client to access it, is it located in: "styles/style1/css/style.css"
+*/
+
+/*#navigation-menu ul.sf-menu > li > a > span {font-weight:bold !important;}*/
+#navigation-menu ul.sf-menu a > span {color:#000000;}
+.content-block-body{ padding-top : 0 !important; padding-bottom : 0 !important; margin-top : 0 !important; margin-bottom : 0 !important; padding:10px 0 5px !important;}
+
+.prettyphoto img{ margin:2px !important; border:1px solid #EFEFEF !important; padding:2px !important;}
+
+#navigation-menu ul.sf-menu > li > ul > li > a:hover > span {color:#F95A09 !important;}
+#navigation-menu ul.sf-menu > li > ul > li > ul > li > a:hover > span {color:#F95A09 !important;}
+
+#page-content-header{
+  background-color:#ec7813 !important;
+}
+.pagetitle{
+  color:#ffffff !important; font-style: italic; font-weight:bold;
+  }
+
+.extra-div{float: left; width: 800px;}
+
+@media all and (max-width: 800px) and (min-width: 320px) {#slider_right{ margin-left:0px!important;float:none !important;text-align: center;position:static!important;display:none;}#rev-slider-header{height:240px !important;}}@media all and (max-width: 1024px) and (min-width: 801px) {/* #rev_slider_1_1_wrapper{display: block;} */#slider_right{/* margin-left:0px!important; */float:none !important;text-align: center;/* position:static!important; *//* display:block; */}} 
+.photogallery{float: left; margin: 10px; background: #E5E5E5; padding: 2px; text-align: center; max-width: 150px;}
+
+@media all and (max-width: 1023px) and (min-width: 768px) {.extra-div{float: left; width: auto;}}
+
+@media all and (max-width: 479px) and (min-width: 320px) {
+.photogallery{float: left; margin-left:40px;}
+.top-right-mail{float:none !important; text-align:center;}
+.top-contact{float:none !important; text-align:center;}
+.top-contact_email{float:none !important; text-align:center;}
+.interior_img{max-width:94%;}
+.academic-img{max-width:94%;}
+.management-page{max-width:94%;}
+.short-term{max-width:94%;}
+.interior-img{max-width:94%;}
+.fashion-img{max-width:94%;}
+.bachelors-img{max-width:94%;}
+.faq-row{width:95% !important;}
+.text_input, .text_area, textarea, #commentform input{ width: 94%;}
+
+
+}
+
+@media all and (max-width: 639px) and (min-width: 480px) {
+.photogallery{float: left; margin-left:50px;}
+.top-right-mail{float:none !important; text-align:center;}
+.top-contact{float:none !important; text-align:center;}
+.top-contact_email{float:none !important; text-align:center;}
+.academic-img{padding: 0px  !important;}
+.faq-row{width:95% !important;;}
+
+
+
+}
+@media all and (max-width: 640px) and (min-width: 480px) {
+#feedback a.feedback{top:100px;}
+}
+
+@media all and (max-width: 640px) and (min-width: 320px) {
+.press-media{float:left; margin-left:50px !important;}
+.text-content{margin: 0 38px 5px;}
+.text-content2{margin: 0 13px 5px;}
+.blank-div{float: left; height: 0px !important; max-width: 150px; width: 200px;}
+.faculty-profile-text{height: auto !important;}
+.faculty-profile-text2{height: 180px !important; text-align:justify;}
+/*.faq-text{margin-right:10px;}*/
+.back-to-top{float: right;}
+}
+
+@media all and (max-width: 959px) and (min-width: 640px) {
+.photogallery{float: left; margin-left:50px;}
+}
+
+@media screen and (max-width: 960px) and (min-width: 768px){
+#navigation-menu ul.sf-menu > li > a > span{padding-left:11px;}
+}
+
+.top-right-mail{float:right; line-height:47px; margin-right:15px;}
+.top-contact{float:left; line-height:47px; margin-right:15px;}
+.top-contact_email{float:left; line-height:47px; margin-right:15px;}
+.interior_img{padding: 5px; border: 1px solid #8a8a8a; margin: 5px;}
+.academic-img{padding: 5px; margin: 5px; border: 1px solid #8a8a8a;}
+.press-media-thumb{float: left; margin: 10px; border:1px solid #E5E5E5; padding: 2px; text-align: center; max-width: 150px;}
+.press-media-img-text{width="150" height="150"}
+.blank-div{float: left; margin: 10px; padding: 2px; text-align: center; height: 200px; max-width: 150px; width: 200px;}
+.press-media{float: left; margin: 10px; background: #E5E5E5; padding: 2px; text-align: center; max-width: 150px;}
+.management-page{padding: 5px; border: 1px solid #8a8a8a; margin: 5px;}
+.short-term{padding: 5px; border: 1px solid #8a8a8a; margin: 5px;}
+.interior-img{padding: 5px; border: 1px solid #8a8a8a; margin: 5px;} 
+.fashion-img{padding: 5px; border: 1px solid #8a8a8a; margin: 5px;}
+.bachelors-img{padding: 5px; border: 1px solid #8a8a8a; margin: 5px;} 
+.faculty-profile-text{text-align: justify; height: 150px;}
+.faq-row{text-align: justify; width: 100%; display: block; cursor: pointer; padding: 5px 5px; margin: 5px 0; border: 1px solid #c4c4c4; background-color: #eee;}
+.faq-text{text-align: justify;}
+.text-content{text-align: justify;}
+.text-content2{text-align: justify;}
+.faculty-profile-text2{height: 150px; text-align:justify;}
+
+
+
